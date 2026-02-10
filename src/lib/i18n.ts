@@ -1,0 +1,379 @@
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+
+const resources = {
+  en: {
+    translation: {
+      greeting: "Hey 👋, I'm Duc Binh",
+      introduction:
+        "I'm an Information Systems student who loves programming, especially Web Development. I'm committed to improving my skills and knowledge to keep up with the latest technology.",
+      resume: "Resume",
+      education: "Education",
+      educationCards: [
+        {
+          title: "VietNam education",
+          institution: "",
+          duration: "~2018",
+          description:
+            "Growing up in Vietnam, I completed my educational journey by graduating from high school. A few years later, I began studying abroad in Japan.",
+        },
+        {
+          title: "Japanese Language",
+          institution: "Tokyo Japanese Academy",
+          duration: "2018 - 2020",
+          description:
+            "When I first came to Japan, I lived in 足立区 and studied Japanese in Tokyo Japanese Academy (品川区). Upon graduating, I received the N3 certification here.",
+        },
+        {
+          title: "IT Web Development",
+          institution: "中央情報専門学校",
+          duration: "2020 - 2022",
+          description:
+            "I studied web development at 中央情報専門学校, a well-regarded Senmon school in Saitama. For my final project, I created a web-based to-do list and note application. I also learned how to build responsive, scalable, and secure web apps.",
+        },
+        {
+          title: "Freelancer",
+          institution: "VietNam",
+          duration: "2022 - 2025",
+          description:
+            "I returned to Vietnam and started working as a freelancer, which allows me to pursue my passion for traveling.",
+        },
+        {
+          title: "International College",
+          institution: "ディライトグローバル専門学校",
+          duration: "2025 - Present",
+          description:
+            "Currently studying at Delight Global College. Gaining international perspective and skills to enhance my professional career. ",
+        },
+      ],
+      projectIntro:
+        "I've worked on several projects, primarily focused on frontend development. However, I also have a strong passion for backend development and enjoy working on both sides of the stack.",
+      projectsTitle: "Projects",
+      projectCards: [
+        {
+          title: "TheheAI",
+          description:
+            "An AI-powered SaaS platform with many AI tools for Vietnamese (not done yet)",
+          image:
+            "https://res.cloudinary.com/lacchinh/image/upload/v1729595043/theheai_xkeysy.png",
+          isFeatured: true,
+          url: "https://theheai-com.vercel.app",
+        },
+        {
+          title: "AI Nham",
+          description:
+            "An AI-powered SaaS platform for creating AI-generated images and videos for kids",
+          image:
+            "https://res.cloudinary.com/lacchinh/image/upload/v1729595042/ainham_iw3zic.png",
+          isFeatured: true,
+          url: "https://www.ainham.com/",
+        },
+        {
+          title: "Free AI",
+          description: "All Free AI tools (created by SvelteKit only)",
+          image:
+            "https://res.cloudinary.com/lacchinh/image/upload/v1729595586/freeai_y59h30.png",
+          isFeatured: false,
+          url: "https://free-ai.theheai.com",
+        },
+        {
+          title: "Subtitle Editor",
+          description:
+            "A Subtitle Editor (clone version of SubPlayer) created using React, TypeScript, and FFmpeg WASM",
+          image:
+            "https://res.cloudinary.com/lacchinh/image/upload/v1729597439/subtitle_uv8hqn.png",
+          isFeatured: false,
+          url: "https://sub-player-clone.vercel.app",
+        },
+        {
+          title: "AndoSeven",
+          description:
+            "An E-commerce project created for a friend to sell perfume",
+          image:
+            "https://res.cloudinary.com/lacchinh/image/upload/v1729597849/ando_yi9nmk.png",
+          isFeatured: false,
+          url: "https://andoseven.vercel.app/",
+        },
+        {
+          title: "Free File Converter",
+          description:
+            "Free unlimited file conversion using Next.js 14 and FFmpeg WASM. No backend needed.",
+          image:
+            "https://res.cloudinary.com/lacchinh/image/upload/v1729597443/file_wgkhbz.png",
+          isFeatured: false,
+          url: "https://change-file-nextjs-saas.vercel.app/",
+        },
+      ],
+      contact: {
+        pageTitle: "Contact Me",
+        sendMessage: "Send Me a Message",
+        contactInfo: "Contact Information",
+        connectWithMe: "Connect With Me",
+        formInstructions:
+          "I'd love to hear from you! Fill out the form below to get in touch.",
+        labels: {
+          name: "Name",
+          email: "Email",
+          message: "Message",
+          submit: "Send Message",
+        },
+        placeholders: {
+          name: "Your Name",
+          email: "your@email.com",
+          message: "Your message here...",
+        },
+        toast: {
+          success: "Your message has been sent successfully.",
+          error: "There was an error sending your message. Please try again.",
+        },
+      },
+      nav: {
+        about: "About",
+        projects: "Projects",
+        contact: "Contact me",
+        myAccount: "My Account",
+        profile: "Profile",
+        logout: "Log Out",
+      },
+      footer: {
+        name: "Duc Binh",
+        role: "FullStack Engineer",
+        quickLinks: "Quick Links",
+        home: "Home", // Added translation key
+        projects: "Projects", // Added translation key
+        about: "About", // Added translation key
+        contact: "Contact", // Added translation key
+        stayUpdated: "Stay Updated",
+        subscribeMessage:
+          "Subscribe to my newsletter for the latest updates and articles.",
+        emailPlaceholder: "Enter your email",
+        subscribe: "Subscribe",
+        privacyPolicy: "Privacy Policy",
+        termsOfService: "Terms of Service",
+        cookiePolicy: "Cookie Policy",
+      },
+      about: {
+        title: "About Me",
+        whoIAm: "Who I Am",
+        description:
+          "Hello! I'm Duc Binh, a passionate Full Stack IT Web Developer. I specialize in creating comprehensive web solutions, from intuitive front-end interfaces to robust back-end systems.",
+        journey:
+          "My journey in web development began with a fascination for both the visual and technical aspects of websites. This curiosity evolved into a deep passion for crafting full-stack solutions that not only look great but also perform efficiently.",
+        freelanceExperience:
+          "As a freelancer, I've had the opportunity to work on diverse projects, each presenting unique challenges that have helped me grow as a developer. I'm constantly learning and adapting to new technologies to ensure I can provide the best solutions for my clients.",
+        skills: "Skills",
+        quickInfo: "Quick Info",
+        name: "Duc Binh",
+        location: "Vietnam",
+        role: "Full Stack IT Web Developer",
+        experience: "Freelance Web Development",
+        interests: "AI, Web Development, Open Source",
+        connect: "Connect with me:",
+        workExperience: "Work Experience",
+        freelance: "Freelance Web Developer",
+        freelancePeriod: "2020 - Present",
+        freelanceTasks: [
+          "Developed custom web applications for various clients",
+          "Created responsive and user-friendly interfaces",
+          "Implemented back-end solutions using Node.js and databases",
+          "Collaborated with clients to understand and meet their specific needs",
+        ],
+        resume: "Resume",
+      },
+    },
+  },
+  jp: {
+    translation: {
+      greeting: "こんにちは 👋, 私はDuc Binhです",
+      introduction:
+        "情報システムの学生で、特にWeb開発に熱心です。最新の技術に追いつくためにスキルと知識を向上させることに専念しています。",
+      resume: "履歴書",
+      education: "教育",
+      educationCards: [
+        {
+          title: "ベトナム教育",
+          institution: "",
+          duration: "~2018",
+          description:
+            "ベトナムで成長し、高校を卒業しました。その数年後、日本で留学を始めました。",
+        },
+        {
+          title: "日本語",
+          institution: "東京日本アカデミー",
+          duration: "2018 - 2020",
+          description:
+            "日本に初めて来たとき、足立区に住み、品川区の東京日本アカデミーで日本語を学びました。卒業後、N3の資格を取得しました。",
+        },
+        {
+          title: "ITウェブ開発",
+          institution: "中央情報専門学校",
+          duration: "2020 - 2022",
+          description:
+            "埼玉にある評価の高い専門学校である中央情報専門学校でウェブ開発を学びました。最終プロジェクトでは、ウェブベースのTo-Doリストとメモアプリを作成しました。また、レスポンシブでスケーラブルでセキュアなウェブアプリの構築方法を学びました。",
+        },
+        {
+          title: "フリーランサー",
+          institution: "ベトナム",
+          duration: "2022年 - 2025年",
+          description:
+            "ベトナムに帰国後、フリーランスとして働き始めました。これにより、旅行への情熱を追求することができました。",
+        },
+        {
+          title: "インターナショナルカレッジ",
+          institution: "ディライトグローバル専門学校",
+          duration: "2025年 - 現在",
+          description:
+            "現在、ディライトグローバル専門学校で学んでいます。国際的な視野とスキルを身につけ、将来のキャリアに活かしています。",
+        },
+      ],
+      projectIntro:
+        "いくつかのプロジェクトに取り組んできましたが、主にフロントエンド開発に重点を置いています。しかし、バックエンド開発にも強い情熱があり、スタックの両側で作業するのが好きです。",
+      projectsTitle: "プロジェクト",
+      projectCards: [
+        {
+          title: "TheheAI",
+          description:
+            "多くのAIツールを備えたベトナム向けのAI駆動型SaaSプラットフォーム（未完成）",
+          image:
+            "https://res.cloudinary.com/lacchinh/image/upload/v1729595043/theheai_xkeysy.png",
+          isFeatured: true,
+          url: "https://theheai-com.vercel.app",
+        },
+        {
+          title: "AI Nham",
+          description:
+            "子供向けにAI生成の画像と動画を作成するためのAI駆動型SaaSプラットフォーム",
+          image:
+            "https://res.cloudinary.com/lacchinh/image/upload/v1729595042/ainham_iw3zic.png",
+          isFeatured: true,
+          url: "https://www.ainham.com/",
+        },
+        {
+          title: "Free AI",
+          description: "すべての無料AIツール（SvelteKitでのみ作成）",
+          image:
+            "https://res.cloudinary.com/lacchinh/image/upload/v1729595586/freeai_y59h30.png",
+          isFeatured: false,
+          url: "https://free-ai.theheai.com",
+        },
+        {
+          title: "字幕エディター",
+          description:
+            "React、TypeScript、およびFFmpeg WASMを使用して作成された字幕エディター（SubPlayerのクローン版）",
+          image:
+            "https://res.cloudinary.com/lacchinh/image/upload/v1729597439/subtitle_uv8hqn.png",
+          isFeatured: false,
+          url: "https://sub-player-clone.vercel.app",
+        },
+        {
+          title: "AndoSeven",
+          description:
+            "友人が香水を販売するために作成したEコマースプロジェクト",
+          image:
+            "https://res.cloudinary.com/lacchinh/image/upload/v1729597849/ando_yi9nmk.png",
+          isFeatured: false,
+          url: "https://andoseven.vercel.app/",
+        },
+        {
+          title: "無料ファイル変換",
+          description:
+            "Next.js 14とFFmpeg WASMを使用した無料の無制限ファイル変換。バックエンドは不要。",
+          image:
+            "https://res.cloudinary.com/lacchinh/image/upload/v1729597443/file_wgkhbz.png",
+          isFeatured: false,
+          url: "https://change-file-nextjs-saas.vercel.app/",
+        },
+      ],
+      contact: {
+        pageTitle: "お問い合わせ",
+        sendMessage: "メッセージを送信",
+        contactInfo: "連絡先情報",
+        connectWithMe: "私とつながる",
+        formInstructions:
+          "お気軽にご連絡ください！以下のフォームに記入してください。",
+        labels: {
+          name: "お名前",
+          email: "メールアドレス",
+          message: "メッセージ",
+          submit: "送信",
+        },
+        placeholders: {
+          name: "お名前",
+          email: "example@email.com",
+          message: "メッセージを入力してください...",
+        },
+        toast: {
+          success: "メッセージが正常に送信されました。",
+          error:
+            "メッセージの送信中にエラーが発生しました。再試行してください。",
+        },
+      },
+      nav: {
+        about: "約",
+        projects: "プロジェクト",
+        contact: "お問い合わせ",
+        myAccount: "マイアカウント",
+        profile: "プロフィール",
+        logout: "ログアウト",
+      },
+      footer: {
+        name: "ドゥック・ビン",
+        role: "フルスタックエンジニア",
+        quickLinks: "クイックリンク",
+        home: "ホーム", // Added translation key
+        projects: "プロジェクト", // Added translation key
+        about: "約", // Added translation key
+        contact: "連絡先", // Added translation key
+        stayUpdated: "最新情報を受け取る",
+        subscribeMessage:
+          "最新の更新情報や記事を受け取るために、ニュースレターに登録してください。",
+        emailPlaceholder: "メールアドレスを入力してください",
+        subscribe: "登録する",
+        privacyPolicy: "プライバシーポリシー",
+        termsOfService: "利用規約",
+        cookiePolicy: "クッキーポリシー",
+      },
+      about: {
+        title: "私について",
+        whoIAm: "私が誰か",
+        description:
+          "こんにちは！私はドゥック・ビン、情熱的なフルスタックITウェブ開発者です。私は直感的なフロントエンドインターフェースから堅牢なバックエンドシステムまで、包括的なウェブソリューションの作成を専門としています。",
+        journey:
+          "ウェブ開発の旅は、ウェブサイトの視覚的および技術的側面の両方に魅了されたことから始まりました。この好奇心は、見た目が良いだけでなく、効率的に動作するフルスタックソリューションを作成することへの深い情熱に進化しました。",
+        freelanceExperience:
+          "フリーランスとして、私は多様なプロジェクトに取り組む機会を得ました。それぞれが独自の課題を提示し、私が開発者として成長するのに役立ちました。私は常に学び、新しい技術に適応し、クライアントに最良のソリューションを提供できるよう努めています。",
+        skills: "スキル",
+        quickInfo: "簡単な情報",
+        name: "ドゥック・ビン",
+        location: "ベトナム",
+        role: "フルスタックITウェブ開発者",
+        experience: "フリーランスウェブ開発",
+        interests: "AI、ウェブ開発、オープンソース",
+        connect: "私とつながる:",
+        workExperience: "職務経歴",
+        freelance: "フリーランスウェブ開発者",
+        freelancePeriod: "2020 - 現在",
+        freelanceTasks: [
+          "さまざまなクライアントのためにカスタムウェブアプリケーションを開発",
+          "レスポンシブでユーザーフレンドリーなインターフェースを作成",
+          "Node.jsとデータベースを使用したバックエンドソリューションを実装",
+          "クライアントと協力して、特定のニーズを理解し、満たす",
+        ],
+        resume: "履歴書",
+      },
+    },
+  },
+};
+
+// Fetch preferred language from localStorage, falling back to "en" if not set
+const savedLanguage = localStorage.getItem("preferredLang") || "en";
+
+i18n.use(initReactI18next).init({
+  resources,
+  lng: savedLanguage, // Initialize with saved language or "en"
+  interpolation: {
+    escapeValue: false,
+  },
+});
+
+export default i18n;
