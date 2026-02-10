@@ -25,7 +25,7 @@ export default function LanguageToggle() {
     <>
       <div className="rounded-md shadow-sm" role="group">
         <Button
-          variant={selectedLang === "jp" ? "outline" : "secondary"}
+          variant={selectedLang === "jp" ? "secondary" : "outline"}
           className="rounded-r-none"
           size="sm"
           onClick={() => changeLanguage("jp")}
@@ -33,7 +33,7 @@ export default function LanguageToggle() {
           JP
         </Button>
         <Button
-          variant={selectedLang === "en" ? "outline" : "secondary"}
+          variant={selectedLang === "en" ? "secondary" : "outline"}
           className="rounded-l-none"
           size="sm"
           onClick={() => changeLanguage("en")}

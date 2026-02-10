@@ -1,17 +1,8 @@
 "use client"
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Link, useNavigate } from "react-router-dom"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { User, LogOut, Menu, Info, FolderOpen, Mail, ChevronRight } from "lucide-react"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar" 
+import { Link, useNavigate } from "react-router-dom" 
+import {   Menu, Info, FolderOpen, Mail, ChevronRight } from "lucide-react" 
 import NavbarLogo from "./NavBarLogo"
 import LanguageToggle from "./LanguageToggle" 
 import { Button } from "@/components/ui/button"

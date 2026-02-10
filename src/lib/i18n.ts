@@ -4,7 +4,7 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
-      greeting: "Hey 👋, I'm Duc Binh",
+      greeting: "Hello 👋, I'm Duc Binh",
       introduction:
         "I'm an Information Systems student who loves programming, especially Web Development. I'm committed to improving my skills and knowledge to keep up with the latest technology.",
       resume: "Resume",
@@ -184,7 +184,7 @@ const resources = {
   },
   jp: {
     translation: {
-      greeting: "こんにちは 👋, 私はDuc Binhです",
+      greeting: "こんにちは 👋,ライ・ドゥック・ビン と申します",
       introduction:
         "情報システムの学生で、特にWeb開発に熱心です。最新の技術に追いつくためにスキルと知識を向上させることに専念しています。",
       resume: "履歴書",
