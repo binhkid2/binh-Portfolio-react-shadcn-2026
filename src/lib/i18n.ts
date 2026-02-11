@@ -34,7 +34,7 @@ const resources = {
         {
           title: "Freelancer",
           institution: "VietNam",
-          duration: "2022 - 2025",
+          duration: "2022 - 2024",
           description:
             "I returned to Vietnam and started working as a freelancer, which allows me to pursue my passion for traveling.",
         },
@@ -51,58 +51,53 @@ const resources = {
       projectsTitle: "Projects",
       projectCards: [
         {
-          title: "TheheAI",
+          title: "Rubito",
           description:
-            "An AI-powered SaaS platform with many AI tools for Vietnamese (not done yet)",
+            "Rubito is an AI-powered platform designed specifically for foreigners living in Japan. It design to helps user learn Japanese easier,get access to local news, entertainment, and cultural tips,Connect with other expats, build community, and share experiences.(As of February 2026, this app is still in development.)",
           image:
-            "https://res.cloudinary.com/lacchinh/image/upload/v1729595043/theheai_xkeysy.png",
+            "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821022/Portfolio/Screenshot_2026-02-11_at_23.42.47_zy5wpm.png",
           isFeatured: true,
-          url: "https://theheai-com.vercel.app",
+          url: "https://rubito.jp",
+          github:null
         },
         {
-          title: "AI Nham",
-          description:
-            "An AI-powered SaaS platform for creating AI-generated images and videos for kids",
+          title: "Lac Chinh",
+          description:`LacChinh.com is a Vietnam-based web development and software company.The website has landing page,AI feature demo page. It support Internationalization (i18n) for 3 language :japanese,vietnamese,english.`,
           image:
-            "https://res.cloudinary.com/lacchinh/image/upload/v1729595042/ainham_iw3zic.png",
+            "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821414/Portfolio/Screenshot_2026-02-11_at_23.50.04_olz5xk.png",
           isFeatured: true,
-          url: "https://www.ainham.com/",
+          url: "https://lacchinh.com",
+           github:null
         },
         {
-          title: "Free AI",
+          title: "Portfolio",
           description: "All Free AI tools (created by SvelteKit only)",
           image:
-            "https://res.cloudinary.com/lacchinh/image/upload/v1729595586/freeai_y59h30.png",
-          isFeatured: false,
-          url: "https://free-ai.theheai.com",
+            "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821355/Portfolio/Screenshot_2026-02-11_at_23.48.55_f0ipoz.png",
+          isFeatured: true,
+          url: "https://portfolio-react.rubito.jp",
+           github:null
         },
         {
-          title: "Subtitle Editor",
+          title: "Full Stack Blog Nextjs & Nestjs",
           description:
-            "A Subtitle Editor (clone version of SubPlayer) created using React, TypeScript, and FFmpeg WASM",
+            "A full‑stack app with Next.js frontend and a Nest js backend ,postgress as database.It supports:Email/password login,Magic‑link login,Google OAuth login JWT‑based session with refresh tokens Role‑based access control (ADMIN, MANAGER, MEMBER),blog posts CRUD with strict permissions",
           image:
-            "https://res.cloudinary.com/lacchinh/image/upload/v1729597439/subtitle_uv8hqn.png",
+            "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821622/Portfolio/Screenshot_2026-02-11_at_23.53.29_n96m1f.png",
           isFeatured: false,
-          url: "https://sub-player-clone.vercel.app",
+          url: "https://fullstack-nestjs-nextjs.rubito.jp",
+            github:null
         },
         {
-          title: "AndoSeven",
+          title: "Full Stack Blog Fastify+Htmx",
           description:
-            "An E-commerce project created for a friend to sell perfume",
+            "Similar to project Fullstack Nextjs & NestJs but using simplier tech stack. Using Fastify and htmx,using nosql mongo db as database.It also deploy using dokploy in vps xserver.ne.jp",
           image:
-            "https://res.cloudinary.com/lacchinh/image/upload/v1729597849/ando_yi9nmk.png",
+            "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
           isFeatured: false,
-          url: "https://andoseven.vercel.app/",
-        },
-        {
-          title: "Free File Converter",
-          description:
-            "Free unlimited file conversion using Next.js 14 and FFmpeg WASM. No backend needed.",
-          image:
-            "https://res.cloudinary.com/lacchinh/image/upload/v1729597443/file_wgkhbz.png",
-          isFeatured: false,
-          url: "https://change-file-nextjs-saas.vercel.app/",
-        },
+          url: "https://fullstack-fastify-htmx.rubito.jp",
+            github:null
+        }, 
       ],
       contact: {
         pageTitle: "Contact Me",
@@ -230,60 +225,47 @@ const resources = {
         "いくつかのプロジェクトに取り組んできましたが、主にフロントエンド開発に重点を置いています。しかし、バックエンド開発にも強い情熱があり、スタックの両側で作業するのが好きです。",
       projectsTitle: "プロジェクト",
       projectCards: [
-        {
-          title: "TheheAI",
-          description:
-            "多くのAIツールを備えたベトナム向けのAI駆動型SaaSプラットフォーム（未完成）",
-          image:
-            "https://res.cloudinary.com/lacchinh/image/upload/v1729595043/theheai_xkeysy.png",
-          isFeatured: true,
-          url: "https://theheai-com.vercel.app",
-        },
-        {
-          title: "AI Nham",
-          description:
-            "子供向けにAI生成の画像と動画を作成するためのAI駆動型SaaSプラットフォーム",
-          image:
-            "https://res.cloudinary.com/lacchinh/image/upload/v1729595042/ainham_iw3zic.png",
-          isFeatured: true,
-          url: "https://www.ainham.com/",
-        },
-        {
-          title: "Free AI",
-          description: "すべての無料AIツール（SvelteKitでのみ作成）",
-          image:
-            "https://res.cloudinary.com/lacchinh/image/upload/v1729595586/freeai_y59h30.png",
-          isFeatured: false,
-          url: "https://free-ai.theheai.com",
-        },
-        {
-          title: "字幕エディター",
-          description:
-            "React、TypeScript、およびFFmpeg WASMを使用して作成された字幕エディター（SubPlayerのクローン版）",
-          image:
-            "https://res.cloudinary.com/lacchinh/image/upload/v1729597439/subtitle_uv8hqn.png",
-          isFeatured: false,
-          url: "https://sub-player-clone.vercel.app",
-        },
-        {
-          title: "AndoSeven",
-          description:
-            "友人が香水を販売するために作成したEコマースプロジェクト",
-          image:
-            "https://res.cloudinary.com/lacchinh/image/upload/v1729597849/ando_yi9nmk.png",
-          isFeatured: false,
-          url: "https://andoseven.vercel.app/",
-        },
-        {
-          title: "無料ファイル変換",
-          description:
-            "Next.js 14とFFmpeg WASMを使用した無料の無制限ファイル変換。バックエンドは不要。",
-          image:
-            "https://res.cloudinary.com/lacchinh/image/upload/v1729597443/file_wgkhbz.png",
-          isFeatured: false,
-          url: "https://change-file-nextjs-saas.vercel.app/",
-        },
-      ],
+  {
+    "title": "Rubito",
+    "description": "Rubitoは、日本に住む外国人向けに特化したAI搭載プラットフォームです。ユーザーがより簡単に日本語を学べるようサポートし、ローカルニュースやエンターテインメント、文化的な情報へアクセスできます。さらに、他の在日外国人とつながり、コミュニティを築き、体験を共有することも可能です。（2026年2月現在、本アプリは開発中です。）",
+    "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821022/Portfolio/Screenshot_2026-02-11_at_23.42.47_zy5wpm.png",
+    "isFeatured": true,
+    "url": "https://rubito.jp",
+    "github": null
+  },
+  {
+    "title": "Lac Chinh",
+    "description": "LacChinh.comは、ベトナムを拠点とするWeb開発・ソフトウェア企業です。本サイトにはランディングページおよびAI機能のデモページが含まれています。また、日本語・ベトナム語・英語の3言語に対応した国際化（i18n）をサポートしています。",
+    "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821414/Portfolio/Screenshot_2026-02-11_at_23.50.04_olz5xk.png",
+    "isFeatured": true,
+    "url": "https://lacchinh.com",
+    "github": null
+  },
+  {
+    "title": "Portfolio",
+    "description": "SvelteKitのみで構築された、すべて無料のAIツール集です。",
+    "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821355/Portfolio/Screenshot_2026-02-11_at_23.48.55_f0ipoz.png",
+    "isFeatured": true,
+    "url": "https://portfolio-react.rubito.jp",
+    "github": null
+  },
+  {
+    "title": "Full Stack Blog Nextjs & Nestjs",
+    "description": "Next.jsフロントエンドとNestJSバックエンドで構築されたフルスタックアプリケーションです。データベースにはPostgreSQLを使用しています。メール／パスワードログイン、マジックリンクログイン、Google OAuthログイン、JWTベースのセッション管理（リフレッシュトークン対応）、ロールベースアクセス制御（ADMIN / MANAGER / MEMBER）、厳格な権限制御付きブログ投稿CRUD機能をサポートしています。",
+    "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821622/Portfolio/Screenshot_2026-02-11_at_23.53.29_n96m1f.png",
+    "isFeatured": false,
+    "url": "https://fullstack-nestjs-nextjs.rubito.jp",
+    "github": null
+  },
+  {
+    "title": "Full Stack Blog Fastify+Htmx",
+    "description": "Fullstack Nextjs & NestJsプロジェクトと同様の機能を持ちながら、よりシンプルな技術スタックを採用しています。Fastifyとhtmxを使用し、データベースにはNoSQLのMongoDBを採用しています。また、xserver.ne.jpのVPS環境にDokployを使用してデプロイしています。",
+    "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
+    "isFeatured": false,
+    "url": "https://fullstack-fastify-htmx.rubito.jp",
+    "github": null
+  }
+],
       contact: {
         pageTitle: "お問い合わせ",
         sendMessage: "メッセージを送信",
