@@ -71,12 +71,12 @@ const resources = {
         },
         {
           title: "Portfolio",
-          description: "All Free AI tools (created by SvelteKit only)",
+          description: "My primary portfolio website. It showcases my background, education, technical skills, project highlights, and contact information in a clear and structured format.It also has Internationalization (i18n) feature.",
           image:
             "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821355/Portfolio/Screenshot_2026-02-11_at_23.48.55_f0ipoz.png",
-          isFeatured: true,
+          isFeatured: false,
           url: "https://portfolio-react.rubito.jp",
-           github:null
+           github:"https://github.com/binhkid2/binh-Portfolio-react-shadcn-2026"
         },
         {
           title: "Full Stack Blog Nextjs & Nestjs",
@@ -86,7 +86,7 @@ const resources = {
             "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821622/Portfolio/Screenshot_2026-02-11_at_23.53.29_n96m1f.png",
           isFeatured: false,
           url: "https://fullstack-nestjs-nextjs.rubito.jp",
-            github:null
+            github:"https://github.com/binhkid2/fullstack-javascript-Nestjs-Nextjs"
         },
         {
           title: "Full Stack Blog Fastify+Htmx",
@@ -96,7 +96,7 @@ const resources = {
             "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
           isFeatured: false,
           url: "https://fullstack-fastify-htmx.rubito.jp",
-            github:null
+          github: "https://github.com/binhkid2/FullStack-Fastify-HTMX"
         }, 
       ],
       contact: {
@@ -243,11 +243,11 @@ const resources = {
   },
   {
     "title": "Portfolio",
-    "description": "SvelteKitのみで構築された、すべて無料のAIツール集です。",
+    "description": "私のメインのポートフォリオウェブサイトです。経歴、学歴、技術スキル、主要プロジェクト、連絡先情報を、明確で構造化された形式で紹介しています。また、国際化（i18n）機能も備えています。",
     "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821355/Portfolio/Screenshot_2026-02-11_at_23.48.55_f0ipoz.png",
-    "isFeatured": true,
+    "isFeatured": false,
     "url": "https://portfolio-react.rubito.jp",
-    "github": null
+    "github": "https://github.com/binhkid2/binh-Portfolio-react-shadcn-2026"
   },
   {
     "title": "Full Stack Blog Nextjs & Nestjs",
@@ -255,7 +255,7 @@ const resources = {
     "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821622/Portfolio/Screenshot_2026-02-11_at_23.53.29_n96m1f.png",
     "isFeatured": false,
     "url": "https://fullstack-nestjs-nextjs.rubito.jp",
-    "github": null
+    "github": "https://github.com/binhkid2/fullstack-javascript-Nestjs-Nextjs"
   },
   {
     "title": "Full Stack Blog Fastify+Htmx",
@@ -263,7 +263,7 @@ const resources = {
     "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
     "isFeatured": false,
     "url": "https://fullstack-fastify-htmx.rubito.jp",
-    "github": null
+    "github": "https://github.com/binhkid2/FullStack-Fastify-HTMX"
   }
 ],
       contact: {
