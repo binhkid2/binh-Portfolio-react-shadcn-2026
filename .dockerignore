@@ -1,0 +1,31 @@
+# Node dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build output
+dist
+build
+
+# VCS
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Environment files 
+
+# IDE / OS files
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Tests (optional, if not needed in build)
+coverage
