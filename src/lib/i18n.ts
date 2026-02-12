@@ -65,9 +65,9 @@ const resources = {
           description:`LacChinh.com is a Vietnam-based web development and software company.The website has landing page,AI feature demo page. It support Internationalization (i18n) for 3 language :japanese,vietnamese,english.`,
           image:
             "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821414/Portfolio/Screenshot_2026-02-11_at_23.50.04_olz5xk.png",
-          isFeatured: true,
+          isFeatured: false,
           url: "https://lacchinh.com",
-           github:null
+           github: "https://github.com/binhkid2/lacchinh.com"
         },
         {
           title: "Portfolio",
@@ -237,9 +237,9 @@ const resources = {
     "title": "Lac Chinh",
     "description": "LacChinh.comは、ベトナムを拠点とするウェブ開発およびソフトウェア会社です。ウェブサイトにはランディングページ、AI機能デモページがあります。3言語（日本語、ベトナム語、英語）の国際化（i18n）をサポートしています。",
     "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821414/Portfolio/Screenshot_2026-02-11_at_23.50.04_olz5xk.png",
-    "isFeatured": true,
+    "isFeatured": false,
     "url": "https://lacchinh.com",
-    "github": null
+    "github": "https://github.com/binhkid2/lacchinh.com"
   },
   {
     "title": "Portfolio",
