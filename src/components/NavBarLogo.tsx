@@ -2,12 +2,9 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Sparkles } from 'lucide-react'
 import { Link } from 'react-router-dom'
+ 
 
-interface NavbarLogoProps {
-  logoUrl: string
-}
-
-export default function NavbarLogo({ logoUrl }: NavbarLogoProps) {
+export default function NavbarLogo() {
   const [isHovered, setIsHovered] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
 
@@ -28,7 +25,7 @@ export default function NavbarLogo({ logoUrl }: NavbarLogoProps) {
     >
       <div className="relative">
         <motion.img
-          src={logoUrl}
+          src={import.meta.env["VITE_AVATAR"]}
           alt="Portfolio "
           width={48}
           height={48}

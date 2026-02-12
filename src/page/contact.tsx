@@ -123,11 +123,11 @@ const ContactPage: React.FC = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 text-muted-foreground" />
-                <span>+84 348687107</span>
+                <span>080-8524-3527</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-5 w-5 text-muted-foreground" />
-                <span>Thai Binh City, Vietnam</span>
+                <span>Tokyo,Japan</span>
               </div>
             </CardContent>
           </Card>
@@ -147,7 +147,7 @@ const ContactPage: React.FC = () => {
                 <Button variant="outline" size="icon" onClick={() => handleOpenMail("binhkid2@gmail.com")}>
                   <Mail className="h-4 w-4" />
                 </Button>
-                <Button variant="outline" onClick={() => handleOpenNewTab("https://docs.google.com/document/d/1z3KMBrNxJ3sOC4eAy-M8IVm1JYcXupv29sQPNYQWCGI")}>
+                <Button variant="outline" onClick={() => handleOpenNewTab(import.meta.env["VITE_RESUME_FILE_URL"])}>
                   <FileText className="mr-2 h-4 w-4" />
                   Resume
                 </Button>

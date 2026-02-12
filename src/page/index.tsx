@@ -39,7 +39,7 @@ export   function Home() {
                 <Button variant="outline" size="icon"   onClick={()=>{handleOpenMail("https://gmail.com/binhkid2")}}  >
                   <Mail className="h-4 w-4" />
                 </Button>
-                <Button variant="outline" onClick={()=>{handleOpenNewTab("https://rxresu.me/binhkid2/duc-binh-2026")}}>
+                <Button variant="outline" onClick={()=>{handleOpenNewTab(import.meta.env["VITE_RESUME_FILE_URL"])}}>
                   <FileText className="mr-2 h-4 w-4" />
                    {t("Resume")}
                 </Button>

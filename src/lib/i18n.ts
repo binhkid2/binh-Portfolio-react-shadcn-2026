@@ -83,7 +83,7 @@ const resources = {
           description:
             "A full‑stack Ecommerce app with Next.js and mordern backend as a service Pocketbase (It light weight and self hostable suit for small to medium project,if expected more langer scale app consider use supabase ).It supports:customer login, JWT‑based session with refresh tokens Role‑based access control (admin or Customer).Support products,orders manager with strict permissions",
           image:
-            "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821622/Portfolio/Screenshot_2026-02-11_at_23.53.29_n96m1f.png",
+            "https://res.cloudinary.com/yenvietsoft/image/upload/v1770899319/Portfolio/Screenshot_2026-02-12_at_21.28.30_bpqpsb.png",
           isFeatured: false,
           url: "https://pocket-ecom.rubito.jp",
             github:"https://github.com/binhkid2/pocket-ecom"
@@ -252,7 +252,7 @@ const resources = {
   {
     "title": "Full Stack Ecommerce site",
     "description": "Next.jsと現代的なバックエンド・アズ・ア・サービスであるPocketbaseを使用したフルスタックEコマースアプリ（軽量でセルフホスティング可能で、中小規模プロジェクトに適しています。大規模なアプリが予想される場合はSupabaseの使用を検討してください）。サポート：顧客ログイン、リフレッシュトークン付きJWTベースのセッション、ロールベースのアクセス制御（管理者または顧客）。厳格な権限を持つ製品、注文マネージャーをサポート。",
-    "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821622/Portfolio/Screenshot_2026-02-11_at_23.53.29_n96m1f.png",
+    "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770899319/Portfolio/Screenshot_2026-02-12_at_21.28.30_bpqpsb.png",
     "isFeatured": false,
     "url": "https://pocket-ecom.rubito.jp",
     "github": "https://github.com/binhkid2/pocket-ecom"

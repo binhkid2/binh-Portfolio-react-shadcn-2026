@@ -15,14 +15,13 @@ export default function NavBar() {
   const navigate = useNavigate() 
    const { t } = useTranslation()
   const nav = t("nav", { returnObjects: true }) as any 
-  const [isOpen, setIsOpen] = useState(false) 
- 
+  const [isOpen, setIsOpen] = useState(false)  
  
 
   return (
     <div className="shadow-sm border-b">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-        <NavbarLogo logoUrl={import.meta.env["VITE_AVATAR"]} />
+        <NavbarLogo  />
 
         <div className="flex items-center space-x-4">
           {/* Desktop Language Toggle */}
@@ -42,7 +41,7 @@ export default function NavBar() {
               <SheetContent side="left" className="w-[300px] sm:w-[400px]">
                 <SheetHeader>
                   <SheetTitle className="text-2xl font-bold flex items-center">
-                    <NavbarLogo logoUrl={import.meta.env["VITE_AVATAR"]} />
+                    <NavbarLogo/>
                   </SheetTitle>
                 </SheetHeader>
 
