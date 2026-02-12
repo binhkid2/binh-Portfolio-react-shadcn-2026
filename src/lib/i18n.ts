@@ -79,14 +79,14 @@ const resources = {
            github:"https://github.com/binhkid2/binh-Portfolio-react-shadcn-2026"
         },
         {
-          title: "Full Stack Blog Nextjs & Nestjs",
+           title: "Full Stack Ecommerce site",
           description:
-            "A full‑stack app with Next.js frontend and a Nest js backend ,postgress as database.It supports:Email/password login,Magic‑link login,Google OAuth login JWT‑based session with refresh tokens Role‑based access control (ADMIN, MANAGER, MEMBER),blog posts CRUD with strict permissions",
+            "A full‑stack Ecommerce app with Next.js and mordern backend as a service Pocketbase (It light weight and self hostable suit for small to medium project,if expected more langer scale app consider use supabase ).It supports:customer login, JWT‑based session with refresh tokens Role‑based access control (admin or Customer).Support products,orders manager with strict permissions",
           image:
             "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821622/Portfolio/Screenshot_2026-02-11_at_23.53.29_n96m1f.png",
           isFeatured: false,
-          url: "https://fullstack-nestjs-nextjs.rubito.jp",
-            github:"https://github.com/binhkid2/fullstack-javascript-Nestjs-Nextjs"
+          url: "https://pocket-ecom.rubito.jp",
+            github:"https://github.com/binhkid2/pocket-ecom"
         },
         {
           title: "Full Stack Blog Fastify+Htmx",
@@ -227,7 +227,7 @@ const resources = {
       projectCards: [
   {
     "title": "Rubito",
-    "description": "Rubitoは、日本に住む外国人向けに特化したAI搭載プラットフォームです。ユーザーがより簡単に日本語を学べるようサポートし、ローカルニュースやエンターテインメント、文化的な情報へアクセスできます。さらに、他の在日外国人とつながり、コミュニティを築き、体験を共有することも可能です。（2026年2月現在、本アプリは開発中です。）",
+    "description": "Rubitoは、日本在住の外国人のために特別に設計されたAI搭載プラットフォームです。ユーザーが日本語をより簡単に学び、地元のニュース、エンターテイメント、文化のヒントにアクセスし、他の在外邦人とつながり、コミュニティを構築し、経験を共有するのを助けます。（2026年2月現在、このアプリはまだ開発中です。）",
     "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821022/Portfolio/Screenshot_2026-02-11_at_23.42.47_zy5wpm.png",
     "isFeatured": true,
     "url": "https://rubito.jp",
@@ -235,7 +235,7 @@ const resources = {
   },
   {
     "title": "Lac Chinh",
-    "description": "LacChinh.comは、ベトナムを拠点とするWeb開発・ソフトウェア企業です。本サイトにはランディングページおよびAI機能のデモページが含まれています。また、日本語・ベトナム語・英語の3言語に対応した国際化（i18n）をサポートしています。",
+    "description": "LacChinh.comは、ベトナムを拠点とするウェブ開発およびソフトウェア会社です。ウェブサイトにはランディングページ、AI機能デモページがあります。3言語（日本語、ベトナム語、英語）の国際化（i18n）をサポートしています。",
     "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821414/Portfolio/Screenshot_2026-02-11_at_23.50.04_olz5xk.png",
     "isFeatured": true,
     "url": "https://lacchinh.com",
@@ -243,23 +243,23 @@ const resources = {
   },
   {
     "title": "Portfolio",
-    "description": "私のメインのポートフォリオウェブサイトです。経歴、学歴、技術スキル、主要プロジェクト、連絡先情報を、明確で構造化された形式で紹介しています。また、国際化（i18n）機能も備えています。",
+    "description": "私の主なポートフォリオウェブサイトです。私の経歴、教育、技術スキル、プロジェクトのハイライト、連絡先情報を明確で構造化された形式で展示しています。また、国際化（i18n）機能もあります。",
     "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821355/Portfolio/Screenshot_2026-02-11_at_23.48.55_f0ipoz.png",
     "isFeatured": false,
     "url": "https://portfolio-react.rubito.jp",
     "github": "https://github.com/binhkid2/binh-Portfolio-react-shadcn-2026"
   },
   {
-    "title": "Full Stack Blog Nextjs & Nestjs",
-    "description": "Next.jsフロントエンドとNestJSバックエンドで構築されたフルスタックアプリケーションです。データベースにはPostgreSQLを使用しています。メール／パスワードログイン、マジックリンクログイン、Google OAuthログイン、JWTベースのセッション管理（リフレッシュトークン対応）、ロールベースアクセス制御（ADMIN / MANAGER / MEMBER）、厳格な権限制御付きブログ投稿CRUD機能をサポートしています。",
+    "title": "Full Stack Ecommerce site",
+    "description": "Next.jsと現代的なバックエンド・アズ・ア・サービスであるPocketbaseを使用したフルスタックEコマースアプリ（軽量でセルフホスティング可能で、中小規模プロジェクトに適しています。大規模なアプリが予想される場合はSupabaseの使用を検討してください）。サポート：顧客ログイン、リフレッシュトークン付きJWTベースのセッション、ロールベースのアクセス制御（管理者または顧客）。厳格な権限を持つ製品、注文マネージャーをサポート。",
     "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821622/Portfolio/Screenshot_2026-02-11_at_23.53.29_n96m1f.png",
     "isFeatured": false,
-    "url": "https://fullstack-nestjs-nextjs.rubito.jp",
-    "github": "https://github.com/binhkid2/fullstack-javascript-Nestjs-Nextjs"
+    "url": "https://pocket-ecom.rubito.jp",
+    "github": "https://github.com/binhkid2/pocket-ecom"
   },
   {
     "title": "Full Stack Blog Fastify+Htmx",
-    "description": "Fullstack Nextjs & NestJsプロジェクトと同様の機能を持ちながら、よりシンプルな技術スタックを採用しています。Fastifyとhtmxを使用し、データベースにはNoSQLのMongoDBを採用しています。また、xserver.ne.jpのVPS環境にDokployを使用してデプロイしています。",
+    "description": "Fullstack Nextjs & NestJsプロジェクトに似ていますが、よりシンプルな技術スタックを使用。Fastifyとhtmxを使用し、NoSQLのMongoDBをデータベースとして使用。また、VPS xserver.ne.jpでdokployを使用してデプロイ。",
     "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
     "isFeatured": false,
     "url": "https://fullstack-fastify-htmx.rubito.jp",
