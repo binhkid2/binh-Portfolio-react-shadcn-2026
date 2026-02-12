@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react' 
+import { useState } from 'react' 
 import { motion } from 'framer-motion'
 import { Sparkles } from 'lucide-react'
 import { Link } from 'react-router-dom'
@@ -6,16 +6,7 @@ import { Link } from 'react-router-dom'
 
 export default function NavbarLogo() {
   const [isHovered, setIsHovered] = useState(false)
-  const [isMounted, setIsMounted] = useState(false)
-
-  useEffect(() => {
-    setIsMounted(true)
-  }, [])
-
-  if (!isMounted) {
-    return null // Prevent SSR issues with animations
-  }
-
+ 
   return (
     <Link
       to="/"
