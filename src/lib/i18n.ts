@@ -178,173 +178,173 @@ const resources = {
     },
   },
   jp: {
-    translation: {
-      greeting: "こんにちは 👋,ライ・ドゥック・ビン と申します",
-      introduction:
-        "情報システムの学生で、特にWeb開発に熱心です。最新の技術に追いつくためにスキルと知識を向上させることに専念しています。",
-      resume: "履歴書",
-      education: "教育",
-      educationCards: [
-        {
-          title: "ベトナム教育",
-          institution: "",
-          duration: "~2018",
-          description:
-            "ベトナムで成長し、高校を卒業しました。その数年後、日本で留学を始めました。",
-        },
-        {
-          title: "日本語",
-          institution: "東京日本アカデミー",
-          duration: "2018 - 2020",
-          description:
-            "日本に初めて来たとき、足立区に住み、品川区の東京日本アカデミーで日本語を学びました。卒業後、N3の資格を取得しました。",
-        },
-        {
-          title: "ITウェブ開発",
-          institution: "中央情報専門学校",
-          duration: "2020 - 2022",
-          description:
-            "埼玉にある評価の高い専門学校である中央情報専門学校でウェブ開発を学びました。最終プロジェクトでは、ウェブベースのTo-Doリストとメモアプリを作成しました。また、レスポンシブでスケーラブルでセキュアなウェブアプリの構築方法を学びました。",
-        },
-        {
-          title: "フリーランサー",
-          institution: "ベトナム",
-          duration: "2022年 - 2025年",
-          description:
-            "ベトナムに帰国後、フリーランスとして働き始めました。これにより、旅行への情熱を追求することができました。",
-        },
-        {
-          title: "インターナショナルカレッジ",
-          institution: "ディライトグローバル専門学校",
-          duration: "2025年 - 現在",
-          description:
-            "現在、ディライトグローバル専門学校で学んでいます。国際的な視野とスキルを身につけ、将来のキャリアに活かしています。",
-        },
-      ],
-      projectIntro:
-        "いくつかのプロジェクトに取り組んできましたが、主にフロントエンド開発に重点を置いています。しかし、バックエンド開発にも強い情熱があり、スタックの両側で作業するのが好きです。",
-      projectsTitle: "プロジェクト",
-      projectCards: [
-  {
-    "title": "Rubito",
-    "description": "Rubitoは、日本在住の外国人のために特別に設計されたAI搭載プラットフォームです。ユーザーが日本語をより簡単に学び、地元のニュース、エンターテイメント、文化のヒントにアクセスし、他の在外邦人とつながり、コミュニティを構築し、経験を共有するのを助けます。（2026年2月現在、このアプリはまだ開発中です。）",
-    "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821022/Portfolio/Screenshot_2026-02-11_at_23.42.47_zy5wpm.png",
-    "isFeatured": true,
-    "url": "https://rubito.jp",
-    "github": null
-  },
-  {
-    "title": "Lac Chinh",
-    "description": "LacChinh.comは、ベトナムを拠点とするウェブ開発およびソフトウェア会社です。ウェブサイトにはランディングページ、AI機能デモページがあります。3言語（日本語、ベトナム語、英語）の国際化（i18n）をサポートしています。",
-    "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821414/Portfolio/Screenshot_2026-02-11_at_23.50.04_olz5xk.png",
-    "isFeatured": false,
-    "url": "https://lacchinh.com",
-    "github": "https://github.com/binhkid2/lacchinh.com"
-  },
-  {
-    "title": "Portfolio",
-    "description": "私の主なポートフォリオウェブサイトです。私の経歴、教育、技術スキル、プロジェクトのハイライト、連絡先情報を明確で構造化された形式で展示しています。また、国際化（i18n）機能もあります。",
-    "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821355/Portfolio/Screenshot_2026-02-11_at_23.48.55_f0ipoz.png",
-    "isFeatured": false,
-    "url": "https://portfolio-react.rubito.jp",
-    "github": "https://github.com/binhkid2/binh-Portfolio-react-shadcn-2026"
-  },
-  {
-    "title": "Full Stack Ecommerce site",
-    "description": "Next.jsと現代的なバックエンド・アズ・ア・サービスであるPocketbaseを使用したフルスタックEコマースアプリ（軽量でセルフホスティング可能で、中小規模プロジェクトに適しています。大規模なアプリが予想される場合はSupabaseの使用を検討してください）。サポート：顧客ログイン、リフレッシュトークン付きJWTベースのセッション、ロールベースのアクセス制御（管理者または顧客）。厳格な権限を持つ製品、注文マネージャーをサポート。",
-    "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770899319/Portfolio/Screenshot_2026-02-12_at_21.28.30_bpqpsb.png",
-    "isFeatured": false,
-    "url": "https://pocket-ecom.rubito.jp",
-    "github": "https://github.com/binhkid2/pocket-ecom"
-  },
-  {
-    "title": "Full Stack Blog Fastify+Htmx",
-    "description": "Fullstack Nextjs & NestJsプロジェクトに似ていますが、よりシンプルな技術スタックを使用。Fastifyとhtmxを使用し、NoSQLのMongoDBをデータベースとして使用。また、VPS xserver.ne.jpでdokployを使用してデプロイ。",
-    "image": "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
-    "isFeatured": false,
-    "url": "https://fullstack-fastify-htmx.rubito.jp",
-    "github": "https://github.com/binhkid2/FullStack-Fastify-HTMX"
-  }
-],
-      contact: {
-        pageTitle: "お問い合わせ",
-        sendMessage: "メッセージを送信",
-        contactInfo: "連絡先情報",
-        connectWithMe: "私とつながる",
-        formInstructions:
-          "お気軽にご連絡ください！以下のフォームに記入してください。",
-        labels: {
-          name: "お名前",
-          email: "メールアドレス",
-          message: "メッセージ",
-          submit: "送信",
-        },
-        placeholders: {
-          name: "お名前",
-          email: "example@email.com",
-          message: "メッセージを入力してください...",
-        },
-        toast: {
-          success: "メッセージが正常に送信されました。",
-          error:
-            "メッセージの送信中にエラーが発生しました。再試行してください。",
-        },
-      },
-      nav: {
-        about: "約",
-        projects: "プロジェクト",
-        contact: "お問い合わせ",
-        myAccount: "マイアカウント",
-        profile: "プロフィール",
-        logout: "ログアウト",
-      },
-      footer: {
-        name: "ドゥック・ビン",
-        role: "フルスタックエンジニア",
-        quickLinks: "クイックリンク",
-        home: "ホーム", // Added translation key
-        projects: "プロジェクト", // Added translation key
-        about: "約", // Added translation key
-        contact: "連絡先", // Added translation key
-        stayUpdated: "最新情報を受け取る",
-        subscribeMessage:
-          "最新の更新情報や記事を受け取るために、ニュースレターに登録してください。",
-        emailPlaceholder: "メールアドレスを入力してください",
-        subscribe: "登録する",
-        privacyPolicy: "プライバシーポリシー",
-        termsOfService: "利用規約",
-        cookiePolicy: "クッキーポリシー",
-      },
-      about: {
-        title: "私について",
-        whoIAm: "私が誰か",
+  translation: {
+    greeting: "こんにちは 👋, ライ・ドゥック・ビン と申します",
+    introduction:
+      "情報システムの学生で、特にWeb開発に熱心です。最新の技術に追いつくためにスキルと知識を向上させることに専念しています。",
+    resume: "履歴書",
+    education: "教育",
+    educationCards: [
+      {
+        title: "ベトナム教育",
+        institution: "",
+        duration: "~2018",
         description:
-          "こんにちは！私はドゥック・ビン、情熱的なフルスタックITウェブ開発者です。私は直感的なフロントエンドインターフェースから堅牢なバックエンドシステムまで、包括的なウェブソリューションの作成を専門としています。",
-        journey:
-          "ウェブ開発の旅は、ウェブサイトの視覚的および技術的側面の両方に魅了されたことから始まりました。この好奇心は、見た目が良いだけでなく、効率的に動作するフルスタックソリューションを作成することへの深い情熱に進化しました。",
-        freelanceExperience:
-          "フリーランスとして、私は多様なプロジェクトに取り組む機会を得ました。それぞれが独自の課題を提示し、私が開発者として成長するのに役立ちました。私は常に学び、新しい技術に適応し、クライアントに最良のソリューションを提供できるよう努めています。",
-        skills: "スキル",
-        quickInfo: "簡単な情報",
-        name: "ドゥック・ビン",
-        location: "ベトナム",
-        role: "フルスタックITウェブ開発者",
-        experience: "フリーランスウェブ開発",
-        interests: "AI、ウェブ開発、オープンソース",
-        connect: "私とつながる:",
-        workExperience: "職務経歴",
-        freelance: "フリーランスウェブ開発者",
-        freelancePeriod: "2020 - 現在",
-        freelanceTasks: [
-          "さまざまなクライアントのためにカスタムウェブアプリケーションを開発",
-          "レスポンシブでユーザーフレンドリーなインターフェースを作成",
-          "Node.jsとデータベースを使用したバックエンドソリューションを実装",
-          "クライアントと協力して、特定のニーズを理解し、満たす",
-        ],
-        resume: "履歴書",
+          "ベトナムで成長し、高校を卒業しました。その数年後、日本で留学を始めました。",
+      },
+      {
+        title: "日本語",
+        institution: "東京日本アカデミー",
+        duration: "2018 - 2020",
+        description:
+          "日本に初めて来たとき、足立区に住み、品川区の東京日本アカデミーで日本語を学びました。卒業後、N3の資格を取得しました。",
+      },
+      {
+        title: "ITウェブ開発",
+        institution: "中央情報専門学校",
+        duration: "2020 - 2022",
+        description:
+          "埼玉にある評価の高い専門学校である中央情報専門学校でウェブ開発を学びました。最終プロジェクトでは、ウェブベースのTo-Doリストとメモアプリを作成しました。また、レスポンシブでスケーラブルでセキュアなウェブアプリの構築方法を学びました。",
+      },
+      {
+        title: "フリーランサー",
+        institution: "ベトナム",
+        duration: "2022年 - 2024年",
+        description:
+          "ベトナムに帰国後、フリーランスとして働き始めました。これにより、旅行への情熱を追求することができました。",
+      },
+      {
+        title: "インターナショナルカレッジ",
+        institution: "ディライトグローバル専門学校",
+        duration: "2025年 - 現在",
+        description:
+          "現在、ディライトグローバル専門学校で学んでいます。国際的な視野とスキルを身につけ、将来のキャリアに活かしています。",
+      },
+    ],
+    projectIntro:
+      "いくつかのプロジェクトに取り組んできましたが、主にフロントエンド開発に重点を置いています。しかし、バックエンド開発にも強い情熱があり、スタックの両側で作業するのが好きです。",
+    projectsTitle: "プロジェクト",
+    projectCards: [
+      {
+        title: "Rubito",
+        description: "Rubitoは、日本在住の外国人のために特別に設計されたAI搭載プラットフォームです。ユーザーが日本語をより簡単に学び、地元のニュース、エンターテイメント、文化のヒントにアクセスし、他の在日外国人とつながり、コミュニティを構築し、経験を共有するのを助けます。（2026年2月現在、このアプリはまだ開発中です。）",
+        image: "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821022/Portfolio/Screenshot_2026-02-11_at_23.42.47_zy5wpm.png",
+        isFeatured: true,
+        url: "https://rubito.jp",
+        github: null
+      },
+      {
+        title: "Lac Chinh",
+        description: "LacChinh.comは、ベトナムを拠点とするウェブ開発およびソフトウェア会社です。ウェブサイトにはランディングページ、AI機能デモページがあります。3言語（日本語、ベトナム語、英語）の国際化（i18n）をサポートしています。",
+        image: "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821414/Portfolio/Screenshot_2026-02-11_at_23.50.04_olz5xk.png",
+        isFeatured: false,
+        url: "https://lacchinh.com",
+        github: "https://github.com/binhkid2/lacchinh.com"
+      },
+      {
+        title: "Portfolio",
+        description: "私の主なポートフォリオウェブサイトです。私の経歴、教育、技術スキル、プロジェクトのハイライト、連絡先情報を明確で構造化された形式で展示しています。また、国際化（i18n）機能もあります。",
+        image: "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821355/Portfolio/Screenshot_2026-02-11_at_23.48.55_f0ipoz.png",
+        isFeatured: false,
+        url: "https://portfolio-react.rubito.jp",
+        github: "https://github.com/binhkid2/binh-Portfolio-react-shadcn-2026"
+      },
+      {
+        title: "Full Stack Ecommerce site",
+        description: "Next.jsと現代的なバックエンド・アズ・ア・サービスであるPocketbaseを使用したフルスタックEコマースアプリ（軽量でセルフホスティング可能で、中小規模プロジェクトに適しています。大規模なアプリが予想される場合はSupabaseの使用を検討してください）。サポート：顧客ログイン、リフレッシュトークン付きJWTベースのセッション、ロールベースのアクセス制御（管理者または顧客）。厳格な権限を持つ製品、注文マネージャーをサポート。",
+        image: "https://res.cloudinary.com/yenvietsoft/image/upload/v1770899319/Portfolio/Screenshot_2026-02-12_at_21.28.30_bpqpsb.png",
+        isFeatured: false,
+        url: "https://pocket-ecom.rubito.jp",
+        github: "https://github.com/binhkid2/pocket-ecom"
+      },
+      {
+        title: "Full Stack Blog Fastify+Htmx",
+        description: "Fullstack Nextjs & NestJsプロジェクトに似ていますが、よりシンプルな技術スタックを使用。Fastifyとhtmxを使用し、NoSQLのMongoDBをデータベースとして使用。また、VPS xserver.ne.jpでdokployを使用してデプロイ。",
+        image: "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
+        isFeatured: false,
+        url: "https://fullstack-fastify-htmx.rubito.jp",
+        github: "https://github.com/binhkid2/FullStack-Fastify-HTMX"
+      }
+    ],
+    contact: {
+      pageTitle: "お問い合わせ",
+      sendMessage: "メッセージを送信",
+      contactInfo: "連絡先情報",
+      connectWithMe: "私とつながる",
+      formInstructions:
+        "お気軽にご連絡ください！以下のフォームに記入してください。",
+      labels: {
+        name: "お名前",
+        email: "メールアドレス",
+        message: "メッセージ",
+        submit: "送信",
+      },
+      placeholders: {
+        name: "お名前",
+        email: "example@email.com",
+        message: "メッセージを入力してください...",
+      },
+      toast: {
+        success: "メッセージが正常に送信されました。",
+        error:
+          "メッセージの送信中にエラーが発生しました。再試行してください。",
       },
     },
+    nav: {
+      about: "約",
+      projects: "プロジェクト",
+      contact: "お問い合わせ",
+      myAccount: "マイアカウント",
+      profile: "プロフィール",
+      logout: "ログアウト",
+    },
+    footer: {
+      name: "ライ・ドゥック・ビン",
+      role: "フルスタックエンジニア",
+      quickLinks: "クイックリンク",
+      home: "ホーム",
+      projects: "プロジェクト",
+      about: "約",
+      contact: "連絡先",
+      stayUpdated: "最新情報を受け取る",
+      subscribeMessage:
+        "最新の更新情報や記事を受け取るために、ニュースレターに登録してください。",
+      emailPlaceholder: "メールアドレスを入力してください",
+      subscribe: "登録する",
+      privacyPolicy: "プライバシーポリシー",
+      termsOfService: "利用規約",
+      cookiePolicy: "クッキーポリシー",
+    },
+    about: {
+      title: "私について",
+      whoIAm: "私が誰か",
+      description:
+        "こんにちは！私はライ・ドゥック・ビン、情熱的なフルスタックITウェブ開発者です。私は直感的なフロントエンドインターフェースから堅牢なバックエンドシステムまで、包括的なウェブソリューションの作成を専門としています。",
+      journey:
+        "ウェブ開発の旅は、ウェブサイトの視覚的および技術的側面の両方に魅了されたことから始まりました。この好奇心は、見た目が良いだけでなく、効率的に動作するフルスタックソリューションを作成することへの深い情熱に進化しました。",
+      freelanceExperience:
+        "フリーランスとして、私は多様なプロジェクトに取り組む機会を得ました。それぞれが独自の課題を提示し、私が開発者として成長するのに役立ちました。私は常に学び、新しい技術に適応し、クライアントに最良のソリューションを提供できるよう努めています。",
+      skills: "スキル",
+      quickInfo: "簡単な情報",
+      name: "ライ・ドゥック・ビン",
+      location: "ベトナム",
+      role: "フルスタックITウェブ開発者",
+      experience: "フリーランスウェブ開発",
+      interests: "AI、ウェブ開発、オープンソース",
+      connect: "私とつながる:",
+      workExperience: "職務経歴",
+      freelance: "フリーランスウェブ開発者",
+      freelancePeriod: "2022 - 現在",
+      freelanceTasks: [
+        "さまざまなクライアントのためにカスタムウェブアプリケーションを開発",
+        "レスポンシブでユーザーフレンドリーなインターフェースを作成",
+        "Node.jsとデータベースを使用したバックエンドソリューションを実装",
+        "クライアントと協力して、特定のニーズを理解し、満たす",
+      ],
+      resume: "履歴書",
+    },
   },
+},
 };
 
 // Fetch preferred language from localStorage, falling back to "en" if not set
