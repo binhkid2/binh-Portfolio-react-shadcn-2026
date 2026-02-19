@@ -37,14 +37,7 @@ const resources = {
           duration: "2022 - 2024",
           description:
             "I returned to Vietnam and started working as a freelancer, which allows me to pursue my passion for traveling.",
-        },
-        {
-          title: "International College",
-          institution: "ディライトグローバル専門学校",
-          duration: "2025 - Present",
-          description:
-            "Currently studying at Delight Global College. Gaining international perspective and skills to enhance my professional career. ",
-        },
+        }
       ],
       projectIntro:
         "I've worked on several projects, primarily focused on frontend development. However, I also have a strong passion for backend development and enjoy working on both sides of the stack.",
@@ -222,14 +215,8 @@ const resources = {
         duration: "2022年 - 2024年",
         description:
           "ベトナムに帰国後、フリーランスとして働き始めました。これにより、旅行への情熱を追求することができました。",
-      },
-      {
-        title: "インターナショナルカレッジ",
-        institution: "ディライトグローバル専門学校",
-        duration: "2025年 - 現在",
-        description:
-          "現在、ディライトグローバル専門学校で学んでいます。国際的な視野とスキルを身につけ、将来のキャリアに活かしています。",
-      },
+      }
+    
     ],
     projectIntro:
       "いくつかのプロジェクトに取り組んできましたが、主にフロントエンド開発に重点を置いています。しかし、バックエンド開発にも強い情熱があり、スタックの両側で作業するのが好きです。",
