@@ -89,14 +89,14 @@ const resources = {
             github:"https://github.com/binhkid2/pocket-ecom"
         },
         {
-          title: "Full Stack Blog Fastify+Htmx",
+          title: "Full Stack Blog Nextjs,Nestjs & Postgres",
           description:
-            "Similar to project Fullstack Nextjs & NestJs but using simplier tech stack. Using Fastify and htmx,using nosql mongo db as database.It also deploy using dokploy in vps xserver.ne.jp",
+            "A full‑stack blog web app with Nestjs and Nextjs,using postgres db as database.It support Role‑based access control (ADMIN, MANAGER, MEMBER) and be deployed using dokploy in vps xserver.ne.jp",
           image:
             "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
           isFeatured: false,
-          url: "https://fullstack-fastify-htmx.rubito.jp",
-          github: "https://github.com/binhkid2/FullStack-Fastify-HTMX"
+          url: "https://fullstack-blog-nestjs-nextjs-postgres.rubito.jp",
+          github: "https://gitea.rubito.jp/binhdeptrai/FullStack-Blog-Nestjs-Nextjs-Postgres"
         }, 
       ],
       contact: {
@@ -257,14 +257,14 @@ const resources = {
         url: "https://pocket-ecom.rubito.jp",
         github: "https://github.com/binhkid2/pocket-ecom"
       },
-      {
-        title: "Full Stack Blog Fastify+Htmx",
-        description: "Fullstack Nextjs & NestJsプロジェクトに似ていますが、よりシンプルな技術スタックを使用。Fastifyとhtmxを使用し、NoSQLのMongoDBをデータベースとして使用。また、VPS xserver.ne.jpでdokployを使用してデプロイ。",
-        image: "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
-        isFeatured: false,
-        url: "https://fullstack-fastify-htmx.rubito.jp",
-        github: "https://github.com/binhkid2/FullStack-Fastify-HTMX"
-      }
+     {
+  title: "Full Stack Blog Nextjs,Nestjs & Postgres",
+  description: "Nest.jsとNext.jsを使用したフルスタックブログウェブアプリで、Postgres DBをデータベースとして使用。ロールベースのアクセス制御（ADMIN、MANAGER、MEMBER）をサポートし、VPS xserver.ne.jpでDokployを使用してデプロイ。",
+  image: "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
+  isFeatured: false,
+  url: "https://fullstack-blog-nestjs-nextjs-postgres.rubito.jp",
+  github: "https://gitea.rubito.jp/binhdeptrai/FullStack-Blog-Nestjs-Nextjs-Postgres"
+},
     ],
     contact: {
       pageTitle: "お問い合わせ",
