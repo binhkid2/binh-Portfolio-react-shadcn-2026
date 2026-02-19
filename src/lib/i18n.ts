@@ -87,16 +87,26 @@ const resources = {
           isFeatured: false,
           url: "https://pocket-ecom.rubito.jp",
             github:"https://github.com/binhkid2/pocket-ecom"
-        },
+        }, 
         {
           title: "Full Stack Blog Nextjs,Nestjs & Postgres",
           description:
             "A full‑stack blog web app with Nestjs and Nextjs,using postgres db as database.It support Role‑based access control (ADMIN, MANAGER, MEMBER) and be deployed using dokploy in vps xserver.ne.jp",
           image:
-            "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
+            "https://res.cloudinary.com/yenvietsoft/image/upload/v1771501063/Portfolio/Screenshot_2026-02-19_at_20.36.50_dcjaoi.png",
           isFeatured: false,
           url: "https://fullstack-blog-nestjs-nextjs-postgres.rubito.jp",
-          github: "https://gitea.rubito.jp/binhdeptrai/FullStack-Blog-Nestjs-Nextjs-Postgres"
+          github: "https://github.com/binhkid2/FullStack-Blog-Nestjs-Nextjs-Postgres"
+        }, 
+          {
+          title: "Full Stack Blog Fastify & HTMX",
+          description:
+            "Has all features project Fullstack Nextjs & NestJs offer with simpler tech stack. Using Fastify and htmx,using nosql mongo db as database.It also deploy using dokploy in vps xserver.ne.jp",
+          image:
+            "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
+          isFeatured: false,
+          url: "https://fullstack-fastify-htmx.rubito.jp",
+          github: "https://github.com/binhkid2/FullStack-Fastify-HTMX"
         }, 
       ],
       contact: {
@@ -257,13 +267,21 @@ const resources = {
         url: "https://pocket-ecom.rubito.jp",
         github: "https://github.com/binhkid2/pocket-ecom"
       },
-     {
+ {
   title: "Full Stack Blog Nextjs,Nestjs & Postgres",
   description: "Nest.jsとNext.jsを使用したフルスタックブログウェブアプリで、Postgres DBをデータベースとして使用。ロールベースのアクセス制御（ADMIN、MANAGER、MEMBER）をサポートし、VPS xserver.ne.jpでDokployを使用してデプロイ。",
-  image: "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
+  image: "https://res.cloudinary.com/yenvietsoft/image/upload/v1771501063/Portfolio/Screenshot_2026-02-19_at_20.36.50_dcjaoi.png",
   isFeatured: false,
   url: "https://fullstack-blog-nestjs-nextjs-postgres.rubito.jp",
-  github: "https://gitea.rubito.jp/binhdeptrai/FullStack-Blog-Nestjs-Nextjs-Postgres"
+  github: "https://github.com/binhkid2/FullStack-Blog-Nestjs-Nextjs-Postgres"
+},
+{
+  title: "Full Stack Blog Fastify & HTMX",
+  description: "Fullstack Next.js & Nest.jsプロジェクトが提供するすべての機能を持ち、よりシンプルな技術スタックを使用。FastifyとHTMXを使用し、NoSQLのMongoDBをデータベースとして使用。また、VPS xserver.ne.jpでDokployを使用してデプロイ。",
+  image: "https://res.cloudinary.com/yenvietsoft/image/upload/v1770821760/Portfolio/Screenshot_2026-02-11_at_23.55.50_eltmaf.png",
+  isFeatured: false,
+  url: "https://fullstack-fastify-htmx.rubito.jp",
+  github: "https://github.com/binhkid2/FullStack-Fastify-HTMX"
 },
     ],
     contact: {
